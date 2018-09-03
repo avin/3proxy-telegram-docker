@@ -1,0 +1,8 @@
+version: '2'
+services:
+  main:
+    build:
+      context: ./workspace
+      dockerfile: "Dockerfile"
+    ports:
+      - 31331:3128
